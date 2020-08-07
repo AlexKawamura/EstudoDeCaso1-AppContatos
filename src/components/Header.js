@@ -20,7 +20,6 @@ const Header = (props) => (
 const styles = StyleSheet.create({
   header: {
     height: 200,
-    marginTop: 0,
     backgroundColor: '#3282B8',
     alignItems: 'center',
     justifyContent: 'center',
@@ -28,7 +27,7 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 45,
   },
   text: {
-    fontSize: 50,
+    fontSize: 35,
     color: '#1B262C'
   }
 });
